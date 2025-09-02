@@ -8,7 +8,7 @@ A aplicação consome a API pública e gratuita **ViaCEP** e exibe os dados em u
 ##  Tecnologias Utilizadas
 
 - **React** → Biblioteca JavaScript para criação da interface.  
-- **JavaScript (ES6+)** → Lógica de programação.  
+- **JavaScript  → Lógica de programação.  
 - **Vite** → Ferramenta de build e ambiente de desenvolvimento rápido.  
 - **CSS** → Estilização da aplicação.  
 - **ViaCEP API** → API pública para consulta de endereços a partir do CEP.  
@@ -64,6 +64,7 @@ Uso de React hooks (useState) para manipulação de estado.
 Estruturação de projeto com Vite + React.
 
 Criação de uma interface web simples e funcional.
+
 
 
 

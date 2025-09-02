@@ -1,49 +1,69 @@
-#  Pesquisador de CEP em Python
+# 🔎 Pesquisador de CEP (React + JavaScript)
 
-Este é um projeto simples e prático desenvolvido em Python para pesquisar informações de endereço a partir de um número de CEP. A aplicação utiliza a API pública e gratuita **ViaCEP** para buscar os dados em tempo real.
+Este é um projeto simples e prático desenvolvido em **React** para pesquisar informações de endereço a partir de um número de CEP.  
+A aplicação consome a API pública e gratuita **ViaCEP** e exibe os dados em uma **interface web moderna e interativa**.
 
 ---
 
 ##  Tecnologias Utilizadas
 
-* **Python 3:** A linguagem de programação principal.
-* **Requests:** Uma biblioteca HTTP para Python que facilita o envio de requisições web.
+- **React** → Biblioteca JavaScript para criação da interface.  
+- **JavaScript (ES6+)** → Lógica de programação.  
+- **Vite** → Ferramenta de build e ambiente de desenvolvimento rápido.  
+- **CSS** → Estilização da aplicação.  
+- **ViaCEP API** → API pública para consulta de endereços a partir do CEP.  
 
 ---
 
 ##  Funcionalidades
 
-* **Validação do CEP:** O programa verifica se o CEP tem 8 dígitos e se é composto apenas por números.
-* **Busca de dados:** Faz uma requisição à API do ViaCEP para obter informações do endereço.
-* **Tratamento de erros:** Lida com CEPs não encontrados e possíveis falhas na conexão com a internet.
-* **Interface de linha de comando:** Exibe os resultados de forma clara e formatada no terminal.
-
+**Validação do CEP** → Confere se o usuário digitou algo válido.  
+**Busca de dados em tempo real** → Consome a API ViaCEP.  
+**Exibição de informações** → Mostra logradouro, bairro, cidade e estado.  
+**Tratamento de erros** → Alerta caso o CEP seja inválido ou não encontrado.  
+**Interface Web** → Simples
 ---
 
-##  Como Usar
+## Como Usar
 
 ### Pré-requisitos
 
-Certifique-se de ter o **Python 3** instalado em sua máquina.
+Certifique-se de ter instalado:  
+- **Node.js** (versão LTS recomendada)  
+- **npm** ou **yarn**
 
-### 1. Clonar o Repositório
+---
 
-Se você estiver usando Git, pode clonar o projeto com o seguinte comando:
+### Clonar o Repositório
 
 ```bash
-git clone [https://github.com/seu-usuario/pesquisador-cep-python.git](https://github.com/seu-usuario/pesquisador-cep-python.git)
-cd pesquisador-cep-python
+git clone https://github.com/seu-usuario/pesquisador-cep-react.git
+cd pesquisador-cep-react
+Instalar Dependências
+bash
+Copiar código
+npm install
+Executar o Projeto
+bash
+Copiar código
+npm run dev
+O app ficará disponível em: http://localhost:5173
 
-2. Instalar a Biblioteca requests
-O projeto depende da biblioteca requests. Instale-a usando o pip:
+ Interface
+A aplicação permite que o usuário digite um CEP em um campo de texto e visualize automaticamente as informações retornadas pela API:
 
-Bash
+  
+   ![Tela inicial do projeto](src/assets/tela-inicial.png)
 
-pip install requests
-3. Executar o Programa
-Execute o script diretamente do terminal:
+Aprendizados
+Este projeto serviu como prática para:
 
-Bash
+Consumo de APIs públicas com fetch.
 
-python pesquisador_cep.py
-O programa irá pedir que você digite um CEP para iniciar a pesquisa.
+Uso de React hooks (useState) para manipulação de estado.
+
+Estruturação de projeto com Vite + React.
+
+Criação de uma interface web simples e funcional.
+
+

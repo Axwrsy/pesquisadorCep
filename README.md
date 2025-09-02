@@ -52,8 +52,8 @@ O app ficará disponível em: http://localhost:5173
  Interface
 A aplicação permite que o usuário digite um CEP em um campo de texto e visualize automaticamente as informações retornadas pela API:
 
+![Tela inicial do projeto](public/tela-inicial.png)
 
-![Tela inicial do projeto](./assets/tela-inicial.png)
 
  Aprendizados
 Este projeto serviu como prática para:
@@ -65,3 +65,4 @@ Uso de React hooks (useState) para manipulação de estado.
 Estruturação de projeto com Vite + React.
 
 Criação de uma interface web simples e funcional.
+

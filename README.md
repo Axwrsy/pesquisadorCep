@@ -33,7 +33,7 @@ Certifique-se de ter instalado:
 - **npm** ou **yarn**
 
 ---
-![Tela inicial do projeto](./public/tela-inicial.png)
+![Tela inicial do projeto](./src/public/assets/tela-inicial.png)
 ###  Clonar o Repositório
 
 ```bash
@@ -64,6 +64,7 @@ Uso de React hooks (useState) para manipulação de estado.
 Estruturação de projeto com Vite + React.
 
 Criação de uma interface web simples e funcional.
+
 
 
 
